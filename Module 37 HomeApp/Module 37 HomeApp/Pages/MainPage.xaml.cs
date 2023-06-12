@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace Module_37_HomeApp
+namespace Module_37_HomeApp.Pages
 {
     public partial class MainPage : ContentPage
     {
