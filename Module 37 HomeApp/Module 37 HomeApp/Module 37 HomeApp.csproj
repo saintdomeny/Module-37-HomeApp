@@ -12,13 +12,64 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\kettle.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\kettle.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Pages\BindingModePage.xaml.cs">
+      <DependentUpon>BindingModePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\BindingPage.xaml.cs">
+      <DependentUpon>BindingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\DeviceControlPage.xaml.cs">
+      <DependentUpon>DeviceControlPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\DeviceListPage.xaml.cs">
+      <DependentUpon>DeviceListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\WebPage.xaml.cs">
+      <DependentUpon>WebPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\ProfilePage.xaml.cs">
+      <DependentUpon>ProfilePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\NewDevicePage.xaml.cs">
+      <DependentUpon>NewDevicePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\PaddingPage.xaml.cs">
+      <DependentUpon>PaddingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\AboutPage.xaml.cs">
+      <DependentUpon>AboutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\ClimatePage.xaml.cs">
+      <DependentUpon>ClimatePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\DevicesPage.xaml.cs">
+      <DependentUpon>DevicesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\RoomsPage.xaml.cs">
+      <DependentUpon>RoomsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Pages\RegisterPage.xaml.cs">
+      <DependentUpon>RegisterPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Pages\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Static\" />
   </ItemGroup>
 </Project>

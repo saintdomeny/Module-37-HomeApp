@@ -12,7 +12,7 @@ namespace Module_37_HomeApp
             // инициализация интерфейса
             InitializeComponent();
             // Инициализация главного экрана
-            MainPage = new LoginPage(); // new LoadingPage();  new MainPage();
+            MainPage = new LoginPage(); //  DevicesPage(); new NewDevicePage(); new PaddingPage(); new LoginPage();  new LoadingPage();  new MainPage();
         }
 
         protected override void OnStart()
